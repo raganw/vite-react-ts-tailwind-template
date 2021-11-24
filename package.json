@@ -1,0 +1,54 @@
+{
+  "name": "vite-react-ts-tailwind-template",
+  "description": "Vite-powered, Typescript ReactJS template with TailwindCSS, Jest, Prettier, Eslint, and XState",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Ragan Webber",
+    "email": "ragan@ragan.is",
+    "url": "https://github.com/raganw"
+  },
+  "bugs": {
+    "url": "https://github.com/raganw/vite-react-ts-tailwind-template",
+    "email": "ragan@ragan.is"
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "format": "prettier --write .",
+    "lint": "eslint src --max-warnings=0",
+    "serve": "vite preview",
+    "test": "jest",
+    "type-check": "tsc --no-emit"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-react": "^1.0.9",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-tailwindcss": "^1.17.1",
+    "jest": "^27.3.1",
+    "postcss": "^8.3.11",
+    "prettier": "2.4.1",
+    "tailwindcss": "^2.2.19",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.14",
+    "vite-tsconfig-paths": "^3.3.17"
+  }
+}
