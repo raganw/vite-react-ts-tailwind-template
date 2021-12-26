@@ -15,7 +15,7 @@ function App() {
           <p className="mt-5">
             <Avatar
               size="large"
-              src="https://www.gravatar.com/avatar/4405735f6f3129e0286d9d43e7b460d0"
+              src="https://www.gravatar.com/avatar/2c4147cd84076fff0021be2aeca28f62"
             />
           </p>
         </div>
