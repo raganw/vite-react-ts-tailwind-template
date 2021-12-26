@@ -31,7 +31,7 @@ This template was based off pieces from:
 Create the project.
 
 ```shell
-npx degit ragane/vite-react-ts-tailwind-template my-app
+npx degit raganw/vite-react-ts-tailwind-template my-app
 ```
 
 Access the project directory.
